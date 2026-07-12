@@ -108,7 +108,7 @@ export default function Contact() {
             <div className="rounded-2xl overflow-hidden shadow-luxury border border-border">
               <iframe
                 title="Naviya Interior Wood Work — Chennai"
-                src="https://www.google.com/maps?q=Vijaya+Vigneshwarar+Koil+Street,+Choolai,+Chennai,+Tamil+Nadu+600007&output=embed"
+                src="https://maps.app.goo.gl/8VHj2ohFBefp5ciy5"
                 width="100%"
                 height="620"
                 style={{ border: 0 }}
