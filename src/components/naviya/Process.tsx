@@ -1,13 +1,41 @@
 import { motion } from "framer-motion";
 
 const steps = [
-  { n: "01", title: "Consultation", desc: "We listen to your vision, lifestyle and budget over a relaxed conversation." },
-  { n: "02", title: "Site Visit", desc: "Detailed measurement and study of your space, light and existing conditions." },
-  { n: "03", title: "Design Planning", desc: "Layouts, elevations and 3D visuals — refined together until it feels right." },
-  { n: "04", title: "Material Selection", desc: "Guided selection of ply, veneers, laminates, hardware and finishes." },
-  { n: "05", title: "Manufacturing", desc: "Precision cutting, machining and finishing at our fully-equipped workshop." },
-  { n: "06", title: "Installation", desc: "On-site assembly by our senior team with meticulous alignment and detail." },
-  { n: "07", title: "Final Handover", desc: "A thorough walkthrough, clean-up, and continued care beyond handover." },
+  {
+    n: "01",
+    title: "Consultation",
+    desc: "We listen to your vision, lifestyle and budget over a relaxed conversation.",
+  },
+  {
+    n: "02",
+    title: "Site Visit",
+    desc: "Detailed measurement and study of your space, light and existing conditions.",
+  },
+  {
+    n: "03",
+    title: "Design Planning",
+    desc: "Layouts, elevations and 3D visuals — refined together until it feels right.",
+  },
+  {
+    n: "04",
+    title: "Material Selection",
+    desc: "Guided selection of ply, veneers, laminates, hardware and finishes.",
+  },
+  {
+    n: "05",
+    title: "Manufacturing",
+    desc: "Precision cutting, machining and finishing at our fully-equipped workshop.",
+  },
+  {
+    n: "06",
+    title: "Installation",
+    desc: "On-site assembly by our senior team with meticulous alignment and detail.",
+  },
+  {
+    n: "07",
+    title: "Final Handover",
+    desc: "A thorough walkthrough, clean-up, and continued care beyond handover.",
+  },
 ];
 
 export default function Process() {
@@ -23,7 +51,10 @@ export default function Process() {
         </div>
 
         <div className="mt-20 relative">
-          <div className="absolute left-8 md:left-1/2 top-0 bottom-0 w-px bg-border md:-translate-x-px" aria-hidden />
+          <div
+            className="absolute left-8 md:left-1/2 top-0 bottom-0 w-px bg-border md:-translate-x-px"
+            aria-hidden
+          />
           <motion.div
             initial={{ scaleY: 0 }}
             whileInView={{ scaleY: 1 }}
@@ -50,7 +81,9 @@ export default function Process() {
                     {s.n}
                   </div>
 
-                  <div className={`${right ? "md:col-start-2 md:pl-16" : "md:col-start-1 md:pr-16 md:text-right"}`}>
+                  <div
+                    className={`${right ? "md:col-start-2 md:pl-16" : "md:col-start-1 md:pr-16 md:text-right"}`}
+                  >
                     <h3 className="font-display text-2xl md:text-3xl text-charcoal">{s.title}</h3>
                     <p className="mt-3 text-muted-foreground leading-relaxed max-w-md md:inline-block">
                       {s.desc}

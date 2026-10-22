@@ -35,16 +35,12 @@ export default function Hero() {
             <span className="block italic text-white/90">that feel like home.</span>
           </h1>
           <p className="mt-8 text-white/80 text-lg md:text-xl max-w-2xl font-light leading-relaxed">
-            Premium interior wood work, modular kitchens, wardrobes and custom
-            furniture — designed and hand-built with exceptional workmanship.
+            Premium interior wood work, modular kitchens, wardrobes and custom furniture — designed
+            and hand-built with exceptional workmanship.
           </p>
 
           <div className="mt-10 flex flex-wrap gap-4">
-            <motion.a
-              whileHover={{ y: -2 }}
-              href="#contact"
-              className="btn-gold btn-gold-hover"
-            >
+            <motion.a whileHover={{ y: -2 }} href="#contact" className="btn-gold btn-gold-hover">
               Request Free Consultation <ArrowRight size={18} />
             </motion.a>
             <a href="#projects" className="btn-ghost-light btn-ghost-light-hover">
@@ -61,10 +57,7 @@ export default function Hero() {
         className="absolute bottom-8 left-1/2 -translate-x-1/2 z-10 flex flex-col items-center gap-2 text-white/70"
       >
         <span className="text-[10px] tracking-[0.35em] uppercase">Scroll</span>
-        <motion.div
-          animate={{ y: [0, 8, 0] }}
-          transition={{ repeat: Infinity, duration: 1.8 }}
-        >
+        <motion.div animate={{ y: [0, 8, 0] }} transition={{ repeat: Infinity, duration: 1.8 }}>
           <ChevronDown size={20} />
         </motion.div>
       </motion.div>

@@ -26,9 +26,7 @@ export default function Navbar() {
       animate={{ y: 0, opacity: 1 }}
       transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
       className={`fixed top-0 inset-x-0 z-50 transition-all duration-500 ${
-        scrolled
-          ? "bg-background/80 backdrop-blur-xl border-b border-border/60"
-          : "bg-transparent"
+        scrolled ? "bg-background/80 backdrop-blur-xl border-b border-border/60" : "bg-transparent"
       }`}
     >
       <div className="container-luxury flex items-center justify-between h-20">
@@ -37,10 +35,14 @@ export default function Navbar() {
             <span className="font-display text-gold text-lg leading-none">N</span>
           </div>
           <div className="leading-tight">
-            <div className={`font-display text-lg tracking-wide ${scrolled ? "text-charcoal" : "text-white"}`}>
+            <div
+              className={`font-display text-lg tracking-wide ${scrolled ? "text-charcoal" : "text-white"}`}
+            >
               Naviya
             </div>
-            <div className={`text-[10px] tracking-[0.3em] uppercase ${scrolled ? "text-muted-foreground" : "text-white/70"}`}>
+            <div
+              className={`text-[10px] tracking-[0.3em] uppercase ${scrolled ? "text-muted-foreground" : "text-white/70"}`}
+            >
               Interior · Wood Work
             </div>
           </div>

@@ -7,32 +7,38 @@ import "swiper/css/pagination";
 
 const testimonials = [
   {
-    quote: "Excellent carpentry work. The team delivered our modular kitchen with perfect finishing — everything fits seamlessly.",
+    quote:
+      "Excellent carpentry work. The team delivered our modular kitchen with perfect finishing — everything fits seamlessly.",
     name: "Priya Ramanathan",
     role: "Home Owner, Anna Nagar",
   },
   {
-    quote: "Highly recommended. Very professional carpenter team, great quality materials and truly worth the money.",
+    quote:
+      "Highly recommended. Very professional carpenter team, great quality materials and truly worth the money.",
     name: "Karthik Subramaniam",
     role: "Villa Owner, ECR",
   },
   {
-    quote: "Beautiful workmanship on our wardrobes and TV unit. The finishing is on par with the best showroom furniture.",
+    quote:
+      "Beautiful workmanship on our wardrobes and TV unit. The finishing is on par with the best showroom furniture.",
     name: "Aishwarya Menon",
     role: "Apartment Owner, T. Nagar",
   },
   {
-    quote: "Naviya renovated our entire home. On-time, transparent pricing and the finish is genuinely premium.",
+    quote:
+      "Naviya renovated our entire home. On-time, transparent pricing and the finish is genuinely premium.",
     name: "Rakesh Iyer",
     role: "Home Owner, Adyar",
   },
   {
-    quote: "The attention to detail is what stood out — every joint, every edge is handled with care.",
+    quote:
+      "The attention to detail is what stood out — every joint, every edge is handled with care.",
     name: "Divya Prakash",
     role: "Interior Consultant",
   },
   {
-    quote: "Perfect finishing and very responsive team. Our false ceiling and POP work look absolutely elegant.",
+    quote:
+      "Perfect finishing and very responsive team. Our false ceiling and POP work look absolutely elegant.",
     name: "Vignesh Kumar",
     role: "Home Owner, Choolai",
   },
@@ -84,7 +90,9 @@ export default function Testimonials() {
                       ))}
                     </div>
                     <div className="font-display text-lg text-charcoal">{t.name}</div>
-                    <div className="text-xs text-muted-foreground tracking-wide mt-0.5">{t.role}</div>
+                    <div className="text-xs text-muted-foreground tracking-wide mt-0.5">
+                      {t.role}
+                    </div>
                   </div>
                 </div>
               </SwiperSlide>

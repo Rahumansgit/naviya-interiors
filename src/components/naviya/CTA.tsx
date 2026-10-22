@@ -24,8 +24,8 @@ export default function CTA() {
           <span className="italic block text-white/90">dream interior.</span>
         </h2>
         <p className="mt-8 text-white/70 text-lg max-w-xl mx-auto leading-relaxed">
-          Book a free, no-obligation consultation with our design team.
-          We'll listen, sketch, and quote — always transparent, always on your terms.
+          Book a free, no-obligation consultation with our design team. We'll listen, sketch, and
+          quote — always transparent, always on your terms.
         </p>
 
         <div className="mt-12 flex flex-wrap gap-4 justify-center">

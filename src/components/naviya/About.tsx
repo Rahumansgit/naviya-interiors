@@ -34,8 +34,12 @@ export default function About() {
             />
           </div>
           <div className="absolute -bottom-8 -right-4 md:-right-10 bg-cream border border-border rounded-2xl px-8 py-6 shadow-soft">
-            <div className="font-display text-4xl text-charcoal">10<span className="text-gold">+</span></div>
-            <div className="text-xs tracking-[0.25em] uppercase text-muted-foreground mt-1">Years of Craft</div>
+            <div className="font-display text-4xl text-charcoal">
+              10<span className="text-gold">+</span>
+            </div>
+            <div className="text-xs tracking-[0.25em] uppercase text-muted-foreground mt-1">
+              Years of Craft
+            </div>
           </div>
         </motion.div>
 
@@ -52,13 +56,14 @@ export default function About() {
             <span className="italic text-wood"> woodwork done right.</span>
           </h2>
           <p className="mt-8 text-lg text-muted-foreground leading-relaxed max-w-xl">
-            For over a decade, Naviya Interior Wood Work has been shaping homes across Chennai with an unwavering
-            commitment to material, joinery and finish. Every kitchen, wardrobe and cabinet is measured,
-            drawn and built by hand — by people who care deeply about the outcome.
+            For over a decade, Naviya Interior Wood Work has been shaping homes across Chennai with
+            an unwavering commitment to material, joinery and finish. Every kitchen, wardrobe and
+            cabinet is measured, drawn and built by hand — by people who care deeply about the
+            outcome.
           </p>
           <p className="mt-4 text-lg text-muted-foreground leading-relaxed max-w-xl">
-            We work closely with each client, translating your ideas into interiors that are warm, functional,
-            and built to last a generation.
+            We work closely with each client, translating your ideas into interiors that are warm,
+            functional, and built to last a generation.
           </p>
 
           <div className="mt-10 grid sm:grid-cols-2 gap-x-8 gap-y-4">

@@ -31,13 +31,13 @@
 }
 
 :root {
-  --background: oklch(0.975 0.005 80);           /* #F8F7F5 warm white */
-  --foreground: oklch(0.22 0.015 50);            /* deep charcoal */
+  --background: oklch(0.975 0.005 80); /* #F8F7F5 warm white */
+  --foreground: oklch(0.22 0.015 50); /* deep charcoal */
   --cream: oklch(0.975 0.005 80);
-  --wood: oklch(0.52 0.08 55);                   /* wood brown #8B5E3C */
-  --walnut: oklch(0.30 0.03 40);                 /* dark walnut */
-  --charcoal: oklch(0.22 0.008 50);              /* #202020 */
-  --gold: oklch(0.72 0.11 78);                   /* #C89B3C gold accent */
+  --wood: oklch(0.52 0.08 55); /* wood brown #8B5E3C */
+  --walnut: oklch(0.3 0.03 40); /* dark walnut */
+  --charcoal: oklch(0.22 0.008 50); /* #202020 */
+  --gold: oklch(0.72 0.11 78); /* #C89B3C gold accent */
 
   --muted: oklch(0.94 0.008 75);
   --muted-foreground: oklch(0.45 0.015 50);
@@ -70,7 +70,11 @@
     font-feature-settings: "ss01", "cv11";
     -webkit-font-smoothing: antialiased;
   }
-  h1, h2, h3, h4, h5 {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5 {
     font-family: var(--font-display);
     font-weight: 500;
     letter-spacing: -0.015em;
@@ -99,7 +103,13 @@
 
 @utility hairline {
   height: 1px;
-  background: linear-gradient(90deg, transparent, var(--border) 20%, var(--border) 80%, transparent);
+  background: linear-gradient(
+    90deg,
+    transparent,
+    var(--border) 20%,
+    var(--border) 80%,
+    transparent
+  );
 }
 
 @utility btn-gold {
@@ -112,7 +122,10 @@
   font-weight: 500;
   letter-spacing: 0.02em;
   border-radius: 999px;
-  transition: transform 300ms ease, box-shadow 300ms ease, background 300ms ease;
+  transition:
+    transform 300ms ease,
+    box-shadow 300ms ease,
+    background 300ms ease;
   box-shadow: 0 10px 30px -10px oklch(0.65 0.12 75 / 0.45);
 }
 @utility btn-gold-hover {
@@ -134,7 +147,9 @@
   border-radius: 999px;
   backdrop-filter: blur(8px);
   background: oklch(1 0 0 / 0.05);
-  transition: background 300ms ease, border-color 300ms ease;
+  transition:
+    background 300ms ease,
+    border-color 300ms ease;
 }
 @utility btn-ghost-light-hover {
   &:hover {
@@ -153,7 +168,9 @@
   border-radius: 999px;
   font-weight: 500;
   letter-spacing: 0.02em;
-  transition: transform 300ms ease, background 300ms ease;
+  transition:
+    transform 300ms ease,
+    background 300ms ease;
 }
 
 @utility text-balance {

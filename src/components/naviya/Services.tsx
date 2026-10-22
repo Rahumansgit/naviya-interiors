@@ -52,12 +52,7 @@ const services = [
   },
 ];
 
-const chips = [
-  "Custom Carpentry",
-  "Wooden Furniture",
-  "Tiles Work",
-  "Interior Renovation",
-];
+const chips = ["Custom Carpentry", "Wooden Furniture", "Tiles Work", "Interior Renovation"];
 
 export default function Services() {
   return (
@@ -131,9 +126,14 @@ export default function Services() {
         </div>
 
         <div className="mt-28 border-t border-border pt-10 flex flex-wrap items-center gap-3">
-          <span className="text-xs tracking-[0.3em] uppercase text-muted-foreground mr-3">Also crafting</span>
+          <span className="text-xs tracking-[0.3em] uppercase text-muted-foreground mr-3">
+            Also crafting
+          </span>
           {chips.map((c) => (
-            <span key={c} className="px-4 py-2 rounded-full border border-border text-sm text-charcoal/80">
+            <span
+              key={c}
+              className="px-4 py-2 rounded-full border border-border text-sm text-charcoal/80"
+            >
               {c}
             </span>
           ))}

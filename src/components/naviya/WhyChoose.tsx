@@ -11,14 +11,46 @@ import {
 } from "lucide-react";
 
 const items = [
-  { icon: Gem, title: "Premium Materials", desc: "Only BWP ply, veneers and hardware from trusted names." },
-  { icon: Hammer, title: "Experienced Craftsmen", desc: "A senior team of carpenters with a decade of practice." },
-  { icon: PenTool, title: "Custom Designs", desc: "Drawn to your space, taste and everyday rituals." },
-  { icon: Sparkles, title: "Perfect Finishing", desc: "Furniture-grade edges, joints and hardware alignment." },
-  { icon: BadgeIndianRupee, title: "Affordable Pricing", desc: "Fair, transparent quotations — no hidden extras." },
-  { icon: Timer, title: "On-time Delivery", desc: "Realistic timelines that we honour, project after project." },
-  { icon: Heart, title: "Customer Satisfaction", desc: "A relationship that continues well beyond handover." },
-  { icon: Headphones, title: "Responsive Service", desc: "One call away — before, during and after installation." },
+  {
+    icon: Gem,
+    title: "Premium Materials",
+    desc: "Only BWP ply, veneers and hardware from trusted names.",
+  },
+  {
+    icon: Hammer,
+    title: "Experienced Craftsmen",
+    desc: "A senior team of carpenters with a decade of practice.",
+  },
+  {
+    icon: PenTool,
+    title: "Custom Designs",
+    desc: "Drawn to your space, taste and everyday rituals.",
+  },
+  {
+    icon: Sparkles,
+    title: "Perfect Finishing",
+    desc: "Furniture-grade edges, joints and hardware alignment.",
+  },
+  {
+    icon: BadgeIndianRupee,
+    title: "Affordable Pricing",
+    desc: "Fair, transparent quotations — no hidden extras.",
+  },
+  {
+    icon: Timer,
+    title: "On-time Delivery",
+    desc: "Realistic timelines that we honour, project after project.",
+  },
+  {
+    icon: Heart,
+    title: "Customer Satisfaction",
+    desc: "A relationship that continues well beyond handover.",
+  },
+  {
+    icon: Headphones,
+    title: "Responsive Service",
+    desc: "One call away — before, during and after installation.",
+  },
 ];
 
 export default function WhyChoose() {

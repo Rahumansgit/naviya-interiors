@@ -19,8 +19,8 @@ export default function Contact() {
               <span className="italic text-wood"> your space.</span>
             </h2>
             <p className="mt-6 text-muted-foreground leading-relaxed">
-              Drop by our workshop, give us a call, or share your project details on WhatsApp.
-              We reply personally, usually the same day.
+              Drop by our workshop, give us a call, or share your project details on WhatsApp. We
+              reply personally, usually the same day.
             </p>
 
             <div className="mt-10 space-y-6">
@@ -29,22 +29,34 @@ export default function Contact() {
                   <MapPin size={18} />
                 </div>
                 <div>
-                  <div className="text-xs tracking-[0.28em] uppercase text-muted-foreground">Workshop</div>
+                  <div className="text-xs tracking-[0.28em] uppercase text-muted-foreground">
+                    Workshop
+                  </div>
                   <div className="mt-1 text-charcoal leading-relaxed">
-                    NAVIYA INTERIOR WOOD WORK<br />
-                    21, Vijaya Vigneshwarar Koil Street,<br />
+                    NAVIYA INTERIOR WOOD WORK
+                    <br />
+                    21, Vijaya Vigneshwarar Koil Street,
+                    <br />
                     Choolai, Chennai, Tamil Nadu 600007
                   </div>
                 </div>
               </div>
 
               <div className="flex gap-4">
-                <a href="tel:+919636418563" className="w-11 h-11 flex-shrink-0 rounded-full border border-gold/40 bg-gold/5 flex items-center justify-center text-gold hover:bg-gold hover:text-charcoal transition">
+                <a
+                  href="tel:+919636418563"
+                  className="w-11 h-11 flex-shrink-0 rounded-full border border-gold/40 bg-gold/5 flex items-center justify-center text-gold hover:bg-gold hover:text-charcoal transition"
+                >
                   <Phone size={18} />
                 </a>
                 <div>
-                  <div className="text-xs tracking-[0.28em] uppercase text-muted-foreground">Phone</div>
-                  <a href="tel:+919636418563" className="mt-1 block text-charcoal font-display text-2xl hover:text-wood transition">
+                  <div className="text-xs tracking-[0.28em] uppercase text-muted-foreground">
+                    Phone
+                  </div>
+                  <a
+                    href="tel:+919636418563"
+                    className="mt-1 block text-charcoal font-display text-2xl hover:text-wood transition"
+                  >
                     +91 96364 18563
                   </a>
                 </div>
@@ -60,7 +72,9 @@ export default function Contact() {
                   <MessageCircle size={18} />
                 </a>
                 <div>
-                  <div className="text-xs tracking-[0.28em] uppercase text-muted-foreground">WhatsApp</div>
+                  <div className="text-xs tracking-[0.28em] uppercase text-muted-foreground">
+                    WhatsApp
+                  </div>
                   <a
                     href="https://wa.me/919636418563"
                     target="_blank"
@@ -77,7 +91,9 @@ export default function Contact() {
                   <Clock size={18} />
                 </div>
                 <div>
-                  <div className="text-xs tracking-[0.28em] uppercase text-muted-foreground">Hours</div>
+                  <div className="text-xs tracking-[0.28em] uppercase text-muted-foreground">
+                    Hours
+                  </div>
                   <div className="mt-1 text-charcoal">Mon – Sat · 9:00 AM – 8:00 PM</div>
                 </div>
               </div>

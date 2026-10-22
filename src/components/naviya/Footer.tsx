@@ -29,18 +29,29 @@ export default function Footer() {
               </div>
             </div>
             <p className="mt-6 text-cream/70 leading-relaxed max-w-md">
-              A Chennai-based atelier crafting modular kitchens, wardrobes and
-              full-home interiors with quiet, uncompromising workmanship.
+              A Chennai-based atelier crafting modular kitchens, wardrobes and full-home interiors
+              with quiet, uncompromising workmanship.
             </p>
 
             <div className="mt-8 flex gap-3">
-              <a href="#" className="w-10 h-10 rounded-full border border-cream/20 flex items-center justify-center hover:border-gold hover:text-gold transition">
+              <a
+                href="#"
+                className="w-10 h-10 rounded-full border border-cream/20 flex items-center justify-center hover:border-gold hover:text-gold transition"
+              >
                 <Instagram size={16} />
               </a>
-              <a href="#" className="w-10 h-10 rounded-full border border-cream/20 flex items-center justify-center hover:border-gold hover:text-gold transition">
+              <a
+                href="#"
+                className="w-10 h-10 rounded-full border border-cream/20 flex items-center justify-center hover:border-gold hover:text-gold transition"
+              >
                 <Facebook size={16} />
               </a>
-              <a href="https://wa.me/919636418563" target="_blank" rel="noreferrer" className="w-10 h-10 rounded-full border border-cream/20 flex items-center justify-center hover:border-gold hover:text-gold transition">
+              <a
+                href="https://wa.me/919636418563"
+                target="_blank"
+                rel="noreferrer"
+                className="w-10 h-10 rounded-full border border-cream/20 flex items-center justify-center hover:border-gold hover:text-gold transition"
+              >
                 <MessageCircle size={16} />
               </a>
             </div>
@@ -50,7 +61,11 @@ export default function Footer() {
             <div className="text-xs tracking-[0.3em] uppercase text-gold mb-6">Services</div>
             <ul className="space-y-3 text-cream/70">
               {services.map((s) => (
-                <li key={s}><a href="#services" className="hover:text-gold transition">{s}</a></li>
+                <li key={s}>
+                  <a href="#services" className="hover:text-gold transition">
+                    {s}
+                  </a>
+                </li>
               ))}
             </ul>
           </div>
@@ -62,7 +77,10 @@ export default function Footer() {
                 <MapPin size={16} className="text-gold mt-1 flex-shrink-0" />
                 <span>21, Vijaya Vigneshwarar Koil Street, Choolai, Chennai 600007</span>
               </div>
-              <a href="tel:+919636418563" className="flex items-center gap-3 hover:text-gold transition">
+              <a
+                href="tel:+919636418563"
+                className="flex items-center gap-3 hover:text-gold transition"
+              >
                 <Phone size={16} className="text-gold" /> +91 96364 18563
               </a>
               <a

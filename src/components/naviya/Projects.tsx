@@ -31,7 +31,10 @@ export default function Projects() {
               <span className="italic text-wood"> privilege to shape.</span>
             </h2>
           </div>
-          <a href="#contact" className="text-sm tracking-wide text-charcoal border-b border-gold pb-1 hover:text-wood transition">
+          <a
+            href="#contact"
+            className="text-sm tracking-wide text-charcoal border-b border-gold pb-1 hover:text-wood transition"
+          >
             Start your project →
           </a>
         </div>
